@@ -1,48 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
-display: flex;
-height: 100vh;
-background-color: red;
-justify-content: center;
-align-items: center; 
-
+body {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 h1{
-    display: flex;
-    font-family:'Montserrat', sans-serif;
-    font-size: 40px;
-    
-   text-align: center;
+  color: rgb(233, 151, 151);
+  font-size: 40px;
+  }
+  
 
-}
+@media screen and (min-width: 900px) and (max-width 600px) {
+  body {
+    background-color: pink;
+  }
+  .cajah1{
+  
+    font-size: 32px;
 
-@media(max-width:900px) and (min-width:600px){
-
-    body{
-        background-color: blueviolet;
-        flex-direction: column;
-    }
-    h1{
-       
-        font-size: 32px;
-        background-color: coral;
-
-    }
+  }
 
 
-}
-
-@media(max-width:900px) and (min-width:600px){
-    body{
-        background-color: greenyellow;
-    }
-    h1{
-        font-size: 24px;
-        background-color: darkseagreen;
-    }
+@media screen and (min-width: 600px) {
+  body {
+    background-color: green; 
+  }
+  
+  h1{
+      font-size: 24px; 
+  }
 }
